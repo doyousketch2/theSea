@@ -11,7 +11,7 @@ No need to download, it's included.
 I'd like figure out how to generate multiple voices with that lib,  
 using threads, possibly.  
 
-The procedural waves are chunky.  
+The procedural wave graphics are chunky.  
 Wanted to rotate points, but apparently that's not an option in Love2D.  
 
 Might end up mipmap'n watery sprites, and let it splatter those all over the screen.  
