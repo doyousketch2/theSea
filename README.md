@@ -1,2 +1,2 @@
 # theSea
-Löve2D noise gen,  Löve theSea
+Love2D noise gen,  Löve theSea
