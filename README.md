@@ -14,5 +14,7 @@ using threads, possibly.
 The procedural wave graphics are chunky.  
 Wanted to rotate points, but apparently that's not an option in Love2D.  
 
-Might end up mipmap'n watery sprites, and let it splatter those all over the screen.  
+Might end up mipmap'n watery sprites,  
+or simple blurred dots, and let it splatter those all over the screen.  
+
 It was fun for an hour of code.  
