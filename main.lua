@@ -33,8 +33,7 @@ function lo .load()
   la .setVolume(.1)
 
   lg .setBackgroundColor( 0, 10, 50 )
-  lm .randomseed(os .time())
-  dots = 2000
+  dots = 300
 end
 
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,7 +59,7 @@ function lo .draw()
 -- dots
   local wid = 10
 
-  for i = 1,  vol * 300 do
+  for i = 1,  vol * dots do
     local x = lm .random(wid,  WIDTH -wid)
     local y = lm .random(wid,  HEIGHT -wid)
 
@@ -116,4 +115,3 @@ function lo .quit()
 end
 
 --~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
