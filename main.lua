@@ -84,8 +84,9 @@ function lo .draw()
         b = g + 25
       end
     end
+    a = lm .random(0, 180)
 
-    lg .setColor( r, g, b )
+    lg .setColor( r, g, b,  a)
     lg .setPointSize( y / 10 )
     lg .points(x, y)
   end
